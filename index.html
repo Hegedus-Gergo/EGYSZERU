@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Egyszerű cserés rendezés</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Egyszerű cserés rendezés</h1>
+    <div>
+        <p id="bevezetes">Adott egy adathalmazunk, mondjuk egy tömb. A benne tárolt elemeket sorba szeretnénk rendezni.
+            Ez esetben a legegyszerűbb algoritmus, amit választhatunk, az a cserés rendezés. Ennek a lényege az, hogy a
+            tömb elemeit egymással összehasonlítjuk.</p>
+        
+    </div>
+    <table>
+        <tr>
+            <th>Hatékonysága:</th>
+            <td><p>
+                Ha a tömb soron következő eleme nagyobb
+                az utána következőnél, akkor megcseréljük őket. Ahhoz, hogy a tömb rendezett állapotba kerüljön, X elem
+                esetén N*N alkalommal kell lefuttatni a cseréket, ami nem a legjobb, mivel az elemszám növekedésével
+                négyzetesen nő a futási idő.
+            </p></td>
+        </tr>
+        <tr>
+            <th>Összehasonlítások száma:</th>
+            <td>Hat elmből álló tömbben 21-szer történik összehasonlítás.</td>
+        </tr>
+        <tr>
+            <th>Tárigény:</th>
+            <td>Példaként, a mi python kódunk 692 Byte-ot</td>
+        </tr>
+        <tr>
+            <th>Mozgatások száma:</th>
+            <td>
+                <p>
+                    A mozgatások száma függ a tömb elemeinek számától.
+                </p>
+            </td>
+        </tr>
+    </table>
+    <h3>Például:</h3>
+    <div id="kepdiv"><img id="kep" src="python.PNG" alt="Egyszerű cserés rendezés pythonban"></div>
+
+    <p id="link">A fájlokért látogasson el a <a href="https://github.com/Hegedus-Gergo/EGYSZERU" target="_blank">github</a> oldalunkra.</p>
+    <p>Forrás:<a href="https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/">https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/</a></p>
+</body>
+
+</html>

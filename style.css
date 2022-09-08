@@ -1,0 +1,49 @@
+html{
+    margin:0px 250px 0px 250px;
+}
+
+body{
+    text-align: justify;
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+}
+
+p{
+    font-size: large;
+    text-indent: 20px;
+}
+
+
+tr{
+    height: 50px;
+}
+
+table{
+    margin-left: 100px;
+    text-align: center;
+}
+
+#bevezetes{
+    height: 40px;
+}
+
+h3{
+    margin-left: 170px;
+    margin-top: 30px;    
+}
+
+#kepdiv{
+    margin-left: 200px;
+}
+
+#kep{
+    border: solid 5px black;
+
+}
+
+#link{
+    height: 50px;
+}
