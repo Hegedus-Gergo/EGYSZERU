@@ -11,7 +11,9 @@ print(veletlen_szamok_listaja)
 for sorszam in range(0, len(veletlen_szamok_listaja)):
     for ertek in range(sorszam + 1, len(veletlen_szamok_listaja)):
         if veletlen_szamok_listaja[sorszam] > veletlen_szamok_listaja[ertek]:
-            veletlen_szamok_listaja.insert(sorszam, veletlen_szamok_listaja[ertek])
-            veletlen_szamok_listaja.pop(ertek + 1)
+            seged_valtozo1 = veletlen_szamok_listaja[sorszam]
+            veletlen_szamok_listaja[sorszam] = veletlen_szamok_listaja[ertek]
+            veletlen_szamok_listaja[ertek] = seged_valtozo1
+            print(veletlen_szamok_listaja)
 
 print(veletlen_szamok_listaja)
