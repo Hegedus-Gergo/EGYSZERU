@@ -15,31 +15,36 @@
         <p id="bevezetes">Adott egy adathalmazunk, mondjuk egy tömb. A benne tárolt elemeket sorba szeretnénk rendezni.
             Ez esetben a legegyszerűbb algoritmus, amit választhatunk, az a cserés rendezés. Ennek a lényege az, hogy a
             tömb elemeit egymással összehasonlítjuk.</p>
-        
+
     </div>
     <table>
         <tr>
             <th>Hatékonysága:</th>
-            <td><p>
-                Ha a tömb soron következő eleme nagyobb
-                az utána következőnél, akkor megcseréljük őket. Ahhoz, hogy a tömb rendezett állapotba kerüljön, X elem
-                esetén N*N alkalommal kell lefuttatni a cseréket, ami nem a legjobb, mivel az elemszám növekedésével
-                négyzetesen nő a futási idő.
-            </p></td>
+            <td>
+                <p>
+                    Ha a tömb soron következő eleme nagyobb
+                    az utána következőnél, akkor megcseréljük őket. Ahhoz, hogy a tömb rendezett állapotba kerüljön, X
+                    elem
+                    esetén N*N alkalommal kell lefuttatni a cseréket, ami nem a legjobb, mivel az elemszám növekedésével
+                    négyzetesen nő a futási idő.
+                </p>
+            </td>
         </tr>
         <tr>
             <th>Összehasonlítások száma:</th>
-            <td>Hat elmből álló tömbben 21-szer történik összehasonlítás.</td>
+            <td>Hat elmből álló tömbben 21-szer történik összehasonlítás.<br> Amelyben az ön tömbbe több vagy kevesebb
+                elemből áll, használja a következő egyenletet: N*(N-1)/2, ahol az "N" a tömb elemeinek száma</td>
         </tr>
         <tr>
             <th>Tárigény:</th>
-            <td>Példaként, a mi python kódunk 692 Byte-ot</td>
+            <td>N+1, azaz adjon hozzá az elemek számához 1-et</td>
         </tr>
         <tr>
             <th>Mozgatások száma:</th>
             <td>
                 <p>
-                    A mozgatások száma függ a tömb elemeinek számától.
+                    A mozgatások számának kiszámolásához használja a következő egyenletet: 0 – 3*N*(N-1)/2, ahol az "N"
+                    a tömb elemeinek száma
                 </p>
             </td>
         </tr>
@@ -47,8 +52,13 @@
     <h3>Például:</h3>
     <div id="kepdiv"><img id="kep" src="python.PNG" alt="Egyszerű cserés rendezés pythonban"></div>
 
-    <p id="link">A fájlokért látogasson el a <a href="https://github.com/Hegedus-Gergo/EGYSZERU" target="_blank">github</a> oldalunkra.</p>
-    <p>Forrás:<a href="https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/">https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/</a></p>
+    <p id="link">A fájlokért látogasson el a <a href="https://github.com/Hegedus-Gergo/EGYSZERU"
+            target="_blank">github</a> oldalunkra.</p>
+    <p>Forrás:<a href="https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/"
+            target="_blank">https://csharptutorial.hu/docs/hellovilag-hellocsharp/7-algoritmusok/cseres-rendezes/</a>
+        <br> <a href="http://progalap.elte.hu/downloads/seged/eTananyag/lecke30_lap1.html#hiv4"
+            target="_blank">http://progalap.elte.hu/downloads/seged/eTananyag/lecke30_lap1.html#hiv4</a>
+    </p>
 </body>
 
 </html>
